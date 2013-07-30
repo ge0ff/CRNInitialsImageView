@@ -25,7 +25,7 @@
         // Load dummy set of names
         _names = [[NSMutableArray alloc] initWithObjects:[[NSArray alloc] initWithObjects:@"Bruce", @"Wayne", nil],
                   [[NSArray alloc] initWithObjects:@"Tony", @"Stark", nil],
-                  [[NSArray alloc] initWithObjects:@"Steve", @"Rodgers", nil],
+                  [[NSArray alloc] initWithObjects:@"Steve", @"Rogers", nil],
                   [[NSArray alloc] initWithObjects:@"Thor", @"Odinson", nil],
                   [[NSArray alloc] initWithObjects:@"Bruce", @"Banner", nil],
                   [[NSArray alloc] initWithObjects:@"Clark", @"Kent", nil],
