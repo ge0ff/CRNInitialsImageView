@@ -27,4 +27,4 @@ Open up the included Xcode project for an example app.
 
 ## Installation
 
-Simply add the files in the `CRNInitialsImageView.h` and `CRNInitialsImageView.m` to your project.
+Simply add the files `CRNInitialsImageView.h` and `CRNInitialsImageView.m` to your project.
