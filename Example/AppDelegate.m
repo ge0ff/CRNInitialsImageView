@@ -2,8 +2,8 @@
 //  AppDelegate.m
 //  CRNInitialsImageView
 //
-//  Created by cornwall on 7/29/13.
-//  Copyright (c) 2013 cornwall. All rights reserved.
+//  Created by Geoff Cornwall on 7/17/13.
+//  Copyright (c) 2013 Geoff Cornwall. All rights reserved.
 //
 
 #import "AppDelegate.h"
