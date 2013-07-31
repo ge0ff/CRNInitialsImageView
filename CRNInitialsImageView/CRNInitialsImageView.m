@@ -52,15 +52,15 @@
     CGContextRef context = UIGraphicsGetCurrentContext();
     CGContextSetStrokeColorWithColor(context, _initialsBackgroundColor.CGColor);
     CGContextSetFillColorWithColor(context, _initialsBackgroundColor.CGColor);
-	CGFloat minx = CGRectGetMinX(self.frame), midx = CGRectGetMidX(self.frame), maxx = CGRectGetMaxX(self.frame);
-	CGFloat miny = CGRectGetMinY(self.frame), midy = CGRectGetMidY(self.frame), maxy = CGRectGetMaxY(self.frame);
-	CGContextMoveToPoint(context, minx, midy);
-	CGContextAddArcToPoint(context, minx, miny, midx, miny, _radius);
-	CGContextAddArcToPoint(context, maxx, miny, maxx, midy, _radius);
-	CGContextAddArcToPoint(context, maxx, maxy, midx, maxy, _radius);
-	CGContextAddArcToPoint(context, minx, maxy, minx, midy, _radius);
-	CGContextClosePath(context);
-	CGContextDrawPath(context, kCGPathFillStroke);
+    CGFloat minx = CGRectGetMinX(self.frame), midx = CGRectGetMidX(self.frame), maxx = CGRectGetMaxX(self.frame);
+    CGFloat miny = CGRectGetMinY(self.frame), midy = CGRectGetMidY(self.frame), maxy = CGRectGetMaxY(self.frame);
+    CGContextMoveToPoint(context, minx, midy);
+    CGContextAddArcToPoint(context, minx, miny, midx, miny, _radius);
+    CGContextAddArcToPoint(context, maxx, miny, maxx, midy, _radius);
+    CGContextAddArcToPoint(context, maxx, maxy, midx, maxy, _radius);
+    CGContextAddArcToPoint(context, minx, maxy, minx, midy, _radius);
+    CGContextClosePath(context);
+    CGContextDrawPath(context, kCGPathFillStroke);
     self.image = UIGraphicsGetImageFromCurrentImageContext();
     
     UIGraphicsEndImageContext();
