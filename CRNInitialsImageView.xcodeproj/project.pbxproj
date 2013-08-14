@@ -262,7 +262,8 @@
 		FA6A2FD217A7676600A9B9B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Example/CRNInitialsImageView-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/Example/CRNInitialsImageView-Info.plist";
@@ -274,7 +275,8 @@
 		FA6A2FD317A7676600A9B9B5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Example/CRNInitialsImageView-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/Example/CRNInitialsImageView-Info.plist";
