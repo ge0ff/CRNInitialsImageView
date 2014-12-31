@@ -89,7 +89,10 @@
 
 - (NSString *)createInitials {
     NSMutableString *initials = [[NSMutableString alloc]initWithString:[_firstName substringToIndex:1]];
-    [initials appendString:[_lastName substringToIndex:1]];
+    
+    if (_lastName != nil && ![_lastName  isEqual: @""]) {
+        [initials appendString:[_lastName substringToIndex:1]];
+    }
     
     return initials;
 }
